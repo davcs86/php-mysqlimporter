@@ -5,6 +5,15 @@ PHP class for importing big SQL files into MySQL server.
 
 ## How to Use:
 
+### Initialization
+
+```php
+$newImport = new MySQLImport($host, $user, $password, $port);
+```
+
+Parameters:
+$host = 
+
 $host = "localhost"; // database host (required)
 $port = 3306; // database port (optional)
 $dbUser = "root"; //database user (required)
