@@ -8,7 +8,7 @@ PHP class for importing big SQL files into MySQL server.
 ### Initialization
 
 ```php
-$mysqlImport = new MySQLImport($host, $user, $password, $port);
+$mysqlImport = new MySQLImporter($host, $user, $password, $port);
 ```
 
 | Parameter | Description          |
@@ -16,7 +16,7 @@ $mysqlImport = new MySQLImport($host, $user, $password, $port);
 |$host | Host (or IP) of the MySQL server.|
 |$user | Username to login into the server.|
 |$password | Password of the user.|
-|$port | _Optional_. Listen port of the MySQL server. --It uses the value in _mysqli.default_port_ as default.|
+|$port | _Optional_. Listen port of the MySQL server.<br>It uses the value in _mysqli.default_port_ as default.|
 
 ### Basic Importing
 
