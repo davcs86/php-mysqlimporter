@@ -13,6 +13,11 @@ $mysqlImport = new MySQLImporter("localhost", "user", "password");
 $mysqlImport->doImport("yourfile.sql");
 ```
 
+## Requirements:
+
+1. PHP 5.0+
+2. MySQLi extension
+
 ## How to Use:
 
 ### Initialization
