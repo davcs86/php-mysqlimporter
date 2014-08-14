@@ -3,6 +3,15 @@ PHP Mysql Importer
 
 PHP class for importing big SQL files into MySQL server.
 
+This class comes to overpass the problem in phpMyAdmin (and others) , when you can't upload files of decent size through the browser upload. 
+
+With this class you get the same function, just by uploading the file via FTP and doing the importing with 2 simple commands, e.g.
+
+```php
+$mysqlImport = new MySQLImporter("localhost", "root", "mysql");
+$mysqlImport->doImport("yourfile.sql");
+```
+
 ## How to Use:
 
 ### Initialization
@@ -61,5 +70,5 @@ $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", true, true);
 
 ```php
 $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", false, true);
-``
+```
 
