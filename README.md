@@ -8,27 +8,21 @@ PHP class for importing big SQL files into MySQL server.
 ### Initialization
 
 ```php
-$newImport = new MySQLImport($host, $user, $password, $port);
+$mysqlImport = new MySQLImport($host, $user, $password, $port);
 ```
 
 Parameters:
-$host = 
 
-$host = "localhost"; // database host (required)
-$port = 3306; // database port (optional)
-$dbUser = "root"; //database user (required)
-$dbPassword = "mysql"; // database password (required)
-$sqlFile = "SQLFileTest2.sql"; // Path to SQL file (required)
+$host = Host (or IP) of the MySQL server.
+$user = Username to login into the server.
+$password = Password of the user.
+$port = Optional. Listen port of the MySQL server. It uses the value in mysqli.default_port as default.
 
-/* -------------------------------
-**    Initialize (basic usage):
-** ------------------------------- */
+### Basic Importing
 
-$newImport = new MySQLImport($host, $dbUser, $dbPassword); 
-/* 
-* And you can specify port
-$newImport = new MySQLImport($host, $dbUser, $dbPassword, $port);
-*/
+```php
+$mysqlImport->doImport("./sqlfiles/test1.sql");
+```
 
 /* -------------------------------
 **   Start import (basic usage):
