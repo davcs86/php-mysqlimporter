@@ -14,8 +14,11 @@ $mysqlImport = new MySQLImport($host, $user, $password, $port);
 Parameters:
 
 $host = Host (or IP) of the MySQL server.
+
 $user = Username to login into the server.
+
 $password = Password of the user.
+
 $port = Optional. Listen port of the MySQL server. It uses the value in mysqli.default_port as default.
 
 ### Basic Importing
