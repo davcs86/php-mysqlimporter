@@ -37,7 +37,7 @@ if ($mysqlImport->hadErrors){
 }
 ```
 
-### Advance Importing
+### Advanced Importing
 
 1) You can specify database.<br><b>NOTE:</b> This doesn't override the clause _USE_ in the file, but sets an initial database.
 
