@@ -1,9 +1,6 @@
-PHP Mysql Importer
-=================
+<?php
 
-PHP class for importing big SQL files into MySQL server.
-
-## How to Use:
+include ("ClassMySQLImport.php"); 
 
 $host = "localhost"; // database host (required)
 $port = 3306; // database port (optional)
@@ -49,3 +46,6 @@ if ($newImport->hadErrors){
 } else {
 	echo "<strong>File imported successfully</strong>";
 }
+
+
+?>
