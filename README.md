@@ -11,8 +11,8 @@ PHP class for importing big SQL files into MySQL server.
 $mysqlImport = new MySQLImport($host, $user, $password, $port);
 ```
 
-Parameters:
-
+| Parameter | Description          |
+| ------------- | ----------- |
 |$host | Host (or IP) of the MySQL server.|
 |$user | Username to login into the server.|
 |$password | Password of the user.|
