@@ -78,3 +78,16 @@ $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", true, true);
 $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", false, true);
 ```
 
+## Support
+
+Drop me line to: davcs86 [a*t] gmail [do*t] com
+
+## Donations
+
+Did this project help you to save (or earn) some money?<br>
+Please, support to the author by making a small donation.
+
+<a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2PK29ZFPUZ5WL' target='_blank'><img width="150" style='border:0px;width:150px' src='http://ko-fi.com/img/button-4.png' border='0' alt='Buy Me A Coffee :) @ PayPal' /></a>
+
+
+
