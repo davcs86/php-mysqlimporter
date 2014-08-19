@@ -24,6 +24,26 @@ $mysqlImport->doImport("yourfile.sql");
 1. PHP 5.0+
 2. MySQLi extension
 
+## Download
+
+* As zip from this repository: <https://github.com/davcs86/php-mysqlimporter/archive/master.zip>
+
+* With git from a terminal:
+
+```
+git clone https://github.com/davcs86/php-mysqlimporter
+```
+
+* Using Composer, add "davcs86/php-mysqimporter" as a dependency in your project's _composer.json_ file:
+
+```
+{
+    "require": {
+		"davcs86/php-mysqlimporter": "dev-master"
+    }
+}
+```
+
 ## How to Use:
 
 ### Initialization
