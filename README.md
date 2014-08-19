@@ -31,7 +31,7 @@ $mysqlImport->doImport("yourfile.sql");
 * With git from a terminal:
 
 ```
-git clone https://github.com/davcs86/php-mysqlimporter
+git clone https://github.com/davcs86/php-mysqlimporter.git
 ```
 
 * Using Composer, add "davcs86/php-mysqimporter" as a dependency in your project's _composer.json_ file:
