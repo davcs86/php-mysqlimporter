@@ -3,7 +3,7 @@
     "type": "library",
     "description": "PHP class for importing big SQL files into MySQL.",
     "keywords": ["databases", "mysql", "mysqli", "import", "mysqlimport", "mysqldump"],
-    "homepage": "https://github.com/davcs86/php-mysqlimporter",
+    "homepage": "http://d-castillo.info/projects/php-mysqlimporter/",
     "license": "MIT",
     "authors": [
         {
@@ -14,12 +14,10 @@
         }
     ],
 	"support": {
-		"source": "https://github.com/davcs86/php-mysqlimporter",
 		"bugs": "https://github.com/davcs86/php-mysqlimporter/issues"
 	},
     "require": {
         "php": ">=5.3.0",
 		"ext-mysqli": "*"
     }
-
 }
