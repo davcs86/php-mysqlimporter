@@ -98,7 +98,7 @@ $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", true);
 $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", true, true);
 ```
 
-4) Or just drop it.
+4) Or just drop it. Particularly useful if you already got a CREATE statement in your SQL file.
 
 ```php
 $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", false, true);
