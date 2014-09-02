@@ -82,9 +82,9 @@ if ($mysqlImport->hadErrors){
 
 1) You can specify database.<br><b>NOTE:</b> This doesn't override the clause _USE_ in the file, but sets an initial database.
 
-    ```php
-    $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name");
-    ```
+```php
+$mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name");
+```
 
 2) You can create the database (if it doesn't exist).
 
