@@ -88,21 +88,21 @@ $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name");
 
 2) You can create the database (if it doesn't exist).
 
-    ```php
-    $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", true);
-    ```
+```php
+$mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", true);
+```
 
 3) You can drop the database and then create it.
 
-    ```php
-    $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", true, true);
-    ```
+```php
+$mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", true, true);
+```
 
 4) Or just drop it. Particularly useful if you already got a CREATE statement in your SQL file.
 
-    ```php
-    $mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", false, true);
-    ```
+```php
+$mysqlImport->doImport("./sqlfiles/test1.sql", "initial_db_name", false, true);
+```
 
 ## Support
 
